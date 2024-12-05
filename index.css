@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(235, 229, 229);
+
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 80px;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3 ease;
+    padding-left: 25px;
+}
+
+.logo:hover {
+    color: orangered;
+    text-shadow: 0 0 35px orangered,
+        0 0 60px orangered;
+    transform: scale(1, 1);
+}
+
+span {
+    color: orangered;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: rgb(237, 223, 223);
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.contact {
+    padding: 10px 28px;
+    color: white;
+    background-color: rgb(17, 16, 16);
+    border: 2px solid transparent;
+    margin-right: 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact:hover {
+    background-color: orangered;
+    text-shadow: 0 0 25px orangered;
+    color: white;
+}
+
+/*--------------------Homesection----------------------*/
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstsection div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.4rem;
+    margin-top: 250px;
+
+}
+
+.ls {
+
+    border-radius: 15px;
+}
+
+.ls a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: orangered;
+}
+
+.rightsection img {
+    margin-top: 170px;
+    height: 350px;
+    width: 360px;
+    border-radius: 25px;
+}
+
+.blue {
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.yellow {
+    color: orangered;
+}
+
+.h {
+    color: black;
+}
+
+.socials {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+
+.socials a {
+    font-size: 25px;
+    color: black;
+    border: 2px sold orangered;
+    width: 40px;
+    height: 35px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: 0.3s ease;
+}
+
+.socials a:hover {
+    transform: scale(1.2) translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+/*------------------------Aboutselection------------------------*/
+.Aboutsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 8%;
+    gap: 6em;
+    background: rgba(237, 126, 86, 0.9);
+}
+
+.about-img img {
+    position: relative;
+    width: 500px;
+    box-shadow: 0 0 25px rgb(204, 193, 189),
+        0 0 50px rgb(240, 191, 173);
+    border-radius: 100%;
+}
+
+.about-content h2 {
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+
+.about-content h3 {
+    font-size: 62px;
+    color: white;
+}
+
+.about-content p {
+    font-size: 16px;
+    row-gap: 30px;
+}
+
+/*-----------------------------skillssection---------------------------*/
+.heding {
+    text-decoration: underline;
+    padding-left: 550px;
+    color: orangered;
+}
+
+.ski {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+.frontend {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    padding-left: 50px;
+    border-radius: 12px;
+    margin-left: 330px;
+    background-color: rgb(240, 82, 24);
+    margin-top: 70px;
+
+}
+
+.hding {
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+.bar1 {
+    padding-top: 25px;
+    padding-left: 50px;
+
+}
+
+.bar2 {
+    padding-top: 25px;
+    padding-left: 50px;
+
+}
+
+.bar3 {
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.backend {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 12px;
+    background-color: rgb(240, 82, 24);
+    margin-top: 60px;
+    padding-top: 49px;
+
+
+}
+
+.hing {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.bar4 {
+    padding-top: 25px;
+    padding-left: 50px;
+
+}
+
+.bar5 {
+    padding-top: 25px;
+    padding-left: 50px;
+
+}
+
+.softskills {
+    display: inline-block;
+    background-color: rgb(240, 82, 24);
+    width: 300px;
+    height: 200px;
+    padding-left: 18px;
+    border-radius: 12px;
+    margin-left: 500px;
+}
+
+.soft {
+    text-decoration: underline;
+    margin-left: 600px;
+    color: orangered;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-top: 40px;
+}
+
+.bar6 {
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.bar7 {
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.bar8 {
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+/*-----------------------------Projectssection---------------------------*/
+.Projectsection {
+    justify-content: space-around;
+    display: flex;
+    padding: 60px 0 0 70px;
+}
+
+.proj{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 70px;
+    padding-top: 90px;
+}
+
+.sub1,
+.sub2,
+.sub3 {
+    text-align: center;
+    background-color: orangered;
+    padding: 15px;
+    display: inline;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.po1,
+.po2,
+.po3 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+}
+
+/*-----------------------------Contactsection---------------------------*/
+.contact-form h2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 26px;
+    padding-top: 50px;
+}
+
+.contact-form form {
+    max-width: 25em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+
+}
+
+.contact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 10px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.btn {
+    margin-top: 2rem;
+    color: black;
+    padding: 15px;
+    width: 45%;
+    border-radius: 25px;
+    background-color: orangered;
+}
+
+.btn:hover {
+    background-color: rgb(56, 54, 54);
+    transition: 0.3s ease;
+    transform: scale(1) translateY(5px);
+
+}
+
+/*--------------------------------------footer---------------------------------*/
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.social a {
+    font-size: 25px;
+    color: white;
+    border: 2px sold orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: 0.3s ease;
+}
+
+.social a:hover {
+    transform: scale(1.2) translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover {
+    border-bottom: 3px solid orangered;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    padding-left: 500px;
+    padding-top: 15px;
+}
