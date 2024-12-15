@@ -457,3 +457,179 @@ span {
     padding-left: 500px;
     padding-top: 15px;
 }
+/* General Mobile Styling */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .contact {
+        padding: 8px 20px;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .leftsection h1 {
+        font-size: 2rem;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .rightsection img {
+        height: 200px;
+        width: 200px;
+        margin: 20px auto;
+    }
+
+    .Aboutsection {
+        flex-direction: column;
+        text-align: center;
+        gap: 2em;
+    }
+
+    .about-img img {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .skillssection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frontend,
+    .backend,
+    .softskills {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .Projectsection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pro1,
+    .pro2,
+    .pro3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .contact-form form {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .btn {
+        width: 80%;
+    }
+
+    .footer ul li {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .copyright {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+/* Tablet Styling */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftsection {
+        font-size: 1.8rem;
+        margin-top: 80px;
+    }
+
+    .rightsection img {
+        height: 300px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .Aboutsection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skillssection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frontend,
+    .backend,
+    .softskills {
+        width: 70%;
+        margin: 15px 0;
+    }
+
+    .Projectsection {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .pro1,
+    .pro2,
+    .pro3 {
+        margin: 15px;
+        text-align: center;
+    }
+
+    .contact-form form {
+        max-width: 80%;
+        margin: 30px auto;
+    }
+
+    .btn {
+        width: 60%;
+    }
+
+    .footer ul li {
+        padding: 0 10px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
